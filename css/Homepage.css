@@ -1,0 +1,106 @@
+/* Add a black background color to navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: black;
+  
+}
+.container{
+	width:90%;
+}
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #F6A243;
+  color: white;
+}
+
+/* Style the "active" element to highlight the current page */
+.nav a.active {
+  background-color: #FF8900;
+  color: white;
+}
+/*end of nav bar*/
+.col1{
+	position: relative;
+}
+/*slideshow*/
+@keyframes fade {
+  0%   { opacity: 0; }
+  11.11%   { opacity: 1; }
+  33.33%  { opacity: 1; }
+  44.44%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.fadein { 
+	position: absolute;
+	height:80%; 
+	width:80%; 
+	outline: solid orange;
+	text-align: center;
+	left: 10%;
+	border-radius: 15px 50px 30px 5px;
+}
+.fadein img { position:absolute; left:0; right:0; opacity:0; animation-name: fade; animation-duration: 12s; animation-iteration-count: infinite; }
+.fadein img:nth-child(1) { animation-delay: 0s;  }
+.fadein img:nth-child(2) { animation-delay: 3s;  }
+.fadein img:nth-child(3) { animation-delay: 6s;  }
+.fadein img:nth-child(4) { animation-delay: 9s;  }
+/*end of slideshow*/
+
+.banner{
+	width: 100%;
+}
+.logo{
+	float: center;
+}
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: orange;
+	color: white;
+	text-align: center;
+}
+.col2{
+	position: relative;
+}
+
+.shop{
+	text-align: left;
+	float:left;
+}
+.col3{
+	position: relative;
+}
+.award{
+	position: absolute;
+	height: 60%;
+	width: 100%;
+	text-align: center;
+	float: right;
+	bottom: -105%;
+	padding: 5%;
+}
+#text{
+	width: 80%;
+
+}
+.p{
+	padding: 1%;
+	text-align: center;
+}
+.about{
+	text-align: center;
+}

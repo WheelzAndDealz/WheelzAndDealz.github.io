@@ -1,0 +1,31 @@
+/* Add a black background color to navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: black;
+  
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #F6A243;
+  color: white;
+}
+
+/* Style the "active" element to highlight the current page */
+.nav a.active {
+  background-color: #FF8900;
+  color: white;
+}
+
+
